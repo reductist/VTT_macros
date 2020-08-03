@@ -1,0 +1,13 @@
+{
+	"name": "inebriatiMacros",
+	"title": "Inebriati Macros",
+	"description": "Macro module",
+	"version": "0.1",
+	"author": "reductist",
+	"esmodules": ["hookmacro.js"],
+	"socket": true,
+  "url": "https://github.com/reductist/VTT_macros/tree/master",
+  "manifest": "https://raw.githubusercontent.com/reductist/VTT_macros/master/module.json",
+	"minimumCoreVersion": "0.5.5",
+	"compatibleCoreVersion": "0.6.0"
+}
