@@ -4,7 +4,10 @@
 	"description": "Macro module",
 	"version": "0.1",
 	"author": "reductist",
-	"esmodules": ["hookmacro.js"],
+	"esmodules": [
+		"vorpalAttack.js",
+		"tokenVorpalAttack.js"
+	],
 	"socket": true,
   "url": "https://github.com/reductist/VTT_macros/tree/master",
   "manifest": "https://raw.githubusercontent.com/reductist/VTT_macros/master/module.json",
