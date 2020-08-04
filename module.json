@@ -11,9 +11,9 @@
         "name": "wdron"
       }
     ],
-	"esmodules": [
-		"vorpalAttack.js",
-		"tokenVorpalAttack.js"
+	"scripts": [
+		"./vorpalAttack.js",
+		"./tokenVorpalAttack.js"
 	],
 	"socket": true,
   	"url": "https://github.com/reductist/VTT_macros/tree/master",
