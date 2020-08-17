@@ -12,8 +12,7 @@
       }
     ],
 	"scripts": [
-		"./vorpalAttack.js",
-		"./tokenVorpalAttack.js"
+		"./vorpalAttack.js"
 	],
 	"socket": true,
   	"url": "https://github.com/reductist/VTT_macros/tree/master",
