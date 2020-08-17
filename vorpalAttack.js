@@ -1,4 +1,4 @@
-let vorpalAttack = () => {
+(() => {
   function chat(message) {
     let chatData = {
       user: game.user._id,
@@ -7,7 +7,7 @@ let vorpalAttack = () => {
     };
     ChatMessage.create(chatData, {});
   };
-  let hero = game.data.actors.find(c => c.name === "Anhozak");
+  let hero = game.data.actors.[game.data.actors.length - 1]);
   let prof = hero.data.attributes.prof;
   let strmod = hero.data.abilities.str.mod;
   /* examples
@@ -25,3 +25,4 @@ let vorpalAttack = () => {
   }
 chat(messageContent);
 }
+)();
